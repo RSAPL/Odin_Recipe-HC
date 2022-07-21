@@ -1,0 +1,141 @@
+hr.solid {
+    border-top: 2px solid black;
+    margin-bottom: 50px;
+}
+
+#starter {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.card {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 6px;
+    border-radius: 12px;
+    border-right: 5px solid rgba(35, 35, 35, 0.75);
+    border-left: 3px solid rgba(35, 35, 35, 0.9);
+    border-bottom: 5px solid rgba(35, 35, 35, 0.75);
+    border-top: 3px solid rgba(35, 35, 35, 1);
+    margin-left: 40px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: border-right 360ms ease-out, box-shadow 410ms ease-out, margin-right 360ms ease-out, border-top-right-radius 250ms ease-in;
+}
+
+
+.card:hover {
+    box-shadow: 0px 20px;
+    border-right: 12.5px solid rgba(35, 35, 35, 0.875);
+    margin-right: 43px;
+}
+
+.card:hover img {
+    border-top-right-radius: 1.25px;
+}
+
+.card img {
+    z-index: 0;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+    border-bottom: 2px dotted black;
+    position: relative;
+    z-index: 2;
+}
+
+.name {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: -12px;
+    margin-top: 16px;
+    font-family: 'Assistant';
+    font-size: 24px;
+}
+
+.description {
+    font-size: 200;
+    font-weight: lighter;
+    font-family: 'Nunito';
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ul {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: visible;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 38px;
+    padding-left: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+
+ul li {
+    display: inline-block;
+    border-radius: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 11px;
+    margin: 0px 5px;
+    background-color: #0B4619;
+    color: white;
+    font-size: 17px;
+    font-weight: 150;
+    text-align: auto;
+    font-family: 'Yantramanav', sans-serif;
+
+}
+
+#timer {
+    bottom: 3px;
+    padding-right: 5px;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+    top: 3px;
+    padding-right: 3px;
+    padding-left: 2px; 
+    position: relative;
+}
+
+.material-symbols-outlined.size-18 {
+    font-size: 18px;
+    padding-right: 3px;
+    padding-left: 2px;
+    position: relative;
+    top: 3px;
+}
+
+.material-symbols-outlined.size-36 {
+    font-size: 36px;
+}
+
+#pizza {
+    padding-right: 5px;
+    font-variation-settings: 'FILL' 1, 'wght' 700, 'opsz' 20, 'GRAD' -200;
+}
+
+#person {
+    font-variation-settings: 'FILL' 1;
+    padding-right: 3px;
+}
+
+#calendar {
+    font-variation-settings: 'FILL' 1;
+    top: 2.5px;
+    padding-right: 4px;
+}
+
+#croissant {
+    font-variation-settings: 'FILL' 1;
+    padding-right: 6px;
+}

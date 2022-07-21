@@ -1,0 +1,120 @@
+hr.solid {
+    border-top: 2px solid black;
+    margin-bottom: -30px;
+}
+
+.recipe {
+    height: auto;
+    width: 45vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.recipe img {
+    display: block;
+    clip-path: inset(80px 0px round 10px);
+    position: relative;
+    margin: inherit;
+    margin-bottom: -55px;
+}
+
+.recipe .name {
+    font-family: 'Assistant';
+    font-size: 52px;
+    font-weight: 600;
+    width: 600px;
+    position: relative;
+    margin: inherit;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.recipe .description {
+    position: relative;
+    font-family: 'Nunito';
+    font-weight: 600;
+    width: 600px;
+    margin: inherit;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+#separator_one {
+    font-size: 32px;
+    width: 600px;
+    margin: inherit;
+    font-family: 'Heebo';
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.ingredient_separator {
+    font-size: 28px;
+    width: 600px;
+    margin: inherit;
+    font-family: 'Heebo';
+    font-weight: 500;
+}
+
+#after {
+    padding-top: 40px;
+}
+
+.ingredients {
+    list-style: none;
+    width: 575px;
+    margin: inherit;
+}
+
+.ingredients li span {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    padding-right: 5px;
+    z-index: 2;
+}
+
+
+.ingredients li {
+    font-size: 300;
+    font-family: 'Raleway';
+    padding-bottom: 1vh;
+    font-size: 20px;
+}
+
+.steps {
+    padding-top: 40px;
+    width: 700px;
+    margin: inherit;
+}
+
+.steps ul {
+    list-style: none;
+}
+
+.steps ul li {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: -10px;
+    padding-bottom: 25px;
+}
+
+.steps .number {
+    display: inline-block;
+    position: relative;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Trispace';
+    padding-right: 10px;
+}
+
+.material-symbols-outlined.size-36 {
+    font-size: 36px;
+}
+
+.material-symbols-outlined.size-28 {
+    font-size: 28px;
+}
